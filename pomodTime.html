@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang ='en'>
+      <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Pomodo Clock</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.1/css/bootstrap.min.css" integrity="sha512-T584yQ/tdRR5QwOpfvDfVQUidzfgc2339Lc8uBDtcp/wYu80d7jwBgAxbyMh0a9YM9F8N3tdErpFI8iaGx6x5g==" crossorigin="anonymous" referrerpolicy="no-referrer">
+      <link href="style.css" rel="stylesheet"type="text/css">
+      </head>
+      <body>
+   <div>
+      <div id ='container'>
+         <p id = "work">work</p>
+         <p id = "break">beak</p>
+         <p id = "cycles">cycles</p>
+         
+         <div id="work-timer" class="time">
+            <p id = "w-min">10</p>
+            <p class= "semicolon">:</p>
+            <p id = "w-sec">00</p>
+         </div>
+               <p id="counter"class="time">00</p>
+         <div id="break-timer" class="time">
+            <p id ="b-min">10</p>
+            <p class= "semicolon">:</p>
+            <p id ="b-sec">00</p>
+         </div>
+      </div>
+        <div class="text-center">
+      <button id="start"class="btn btn-primary btn-circle">start</button>
+         <button id="stop"class="btn btn-primary btn-circle">stop</button>
+         <button id="reset"class="btn btn-primary btn-circle">reset</button>
+      </div>
+     </div>
+      <script src="script.js"></script> 
+   </body>
+</html>
